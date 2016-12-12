@@ -101,6 +101,8 @@
     const transportation = data.reduce(function(obj,item){
       if(!obj[item]){
         obj[item] = 0;
+        //ie bike = 0;
+        //ie car = 0;
       }
       obj[item]++;
       return obj;
